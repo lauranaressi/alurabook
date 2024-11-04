@@ -1,10 +1,10 @@
-.cabeçalho_menu-hamburguer {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
+    display: inline-block;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;
 }
 
 .cabeçalho {
@@ -31,7 +31,7 @@
     width: 60vw;
 }
 
-.container__botao:checked~.lista-menu {
+.container__botao:checked ~ .lista-menu {
     display: block;
 }
 
@@ -55,5 +55,5 @@
 }
 
 .container__botao {
-    display: none
+    display: none;
 }
